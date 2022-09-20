@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0D192C;
+  font-family: 'Outfit', sans-serif;
+  max-width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  background-color: #15263F;
+  margin: auto;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.nft-image {
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.image-div {
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+}
+
+.eye-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00FFF8;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translate(0%, -307px);
+  -ms-transform: translate(-302px, -302px);
+  transition: 0.5s;
+}
+
+.eye {
+  width: 35px;
+  height: 30px;
+  color: #FFFFFF;
+  opacity: 100%;
+}
+
+.image-div:hover .nft-image {
+  opacity: 0.3;
+}
+
+.image-div:hover .eye-div {
+  opacity: 0.85;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 24px;
+  transition: 0.5s
+}
+
+.description {
+  color: #8BACD9;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  padding-top: 16px;
+}
+
+.price-and-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.price > p {
+  font-weight: 600;
+  font-size: 16px;
+  display: inline;
+}
+
+.time > p {
+  font-weight: 400;
+  font-size: 16px;
+  display: inline;
+}
+
+.time {
+  color: #8BACD9;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  color: #00FFF8;
+  display: flex;
+  align-items: center;
+}
+
+.eth-logo {
+  width: 11px;
+  padding-right: 8px;
+}
+
+.clock {
+  width: 15px;
+  padding-right: 8px;
+}
+
+.line {
+  width: auto;
+  height: 1px;
+  background-color: #2E405A;
+}
+
+.author {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.author-image {
+  width: 33px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.creation-of {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8BACD9;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  transition: 0.5s
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.author-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
